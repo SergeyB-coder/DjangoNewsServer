@@ -1,5 +1,8 @@
 # DjangoNewsServer
 
+python3 -m venv env
+pip install requirements.txt
+
 env\Scripts\activate
 python manage.py migrate
 python manage.py createsuperuser
